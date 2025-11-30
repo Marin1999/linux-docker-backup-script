@@ -43,7 +43,6 @@ Create a file at `~/.restic-env` with your Backblaze B2 credentials.
 An example file is included:
 
 ```bash
-cp .restic-env.example ~/.restic-env
 chmod 600 ~/.restic-env
 ```
 
