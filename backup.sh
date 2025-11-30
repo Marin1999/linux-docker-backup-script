@@ -188,4 +188,4 @@ if [ "$RETENTION_DAYS" -gt 0 ]; then
   find "${BACKUP_BASE}" -maxdepth 1 -type f -name "*.tar.gz" -mtime +"${RETENTION_DAYS}" -print -delete
 fi
 
-echo "✅ Backup completed: ${BACKUP_BASE}/${TS}.tar.gz"
+echo "Backup completed: ${BACKUP_BASE}/${TS}.tar.gz"
