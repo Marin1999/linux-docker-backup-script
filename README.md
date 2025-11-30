@@ -40,7 +40,6 @@ Adjust `RETENTION_DAYS` if needed.
 
 ### Restic setup
 Create a file at `~/.restic-env` with your Backblaze B2 credentials.  
-An example file is included:
 
 ```bash
 chmod 600 ~/.restic-env
